@@ -15,6 +15,5 @@ def main():
     print(data)
     bot.send_message(chat_id=data.message.chat.id,text=data.message.text)
     
-
 if __name__=="__main__":
     app.run(debug=True, port=7000)
